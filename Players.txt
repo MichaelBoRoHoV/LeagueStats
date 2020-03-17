@@ -1,0 +1,50 @@
+{
+	FirstName: "Michael",
+	LastName: "Borohov",
+	Jersey: 3
+},
+{
+	FirstName: "Gadi",
+	LastName: "Berqowitz",
+	Jersey: 99
+},
+{
+	FirstName: "Amir", 
+	LastName: "Golan",
+	jersey: 20
+},
+{
+	FirstName:"Tzahi", 
+	LastName:"Greenberg",
+	jersey: 1
+},
+{
+	FirstName: "Amos", 
+	LastName: "Bercovich",
+	jersey: 7
+},
+{
+	FirstName: "Iden", 
+	LastName: ""Oren",
+ 	jersey: 23
+},
+{
+	FirstName: "Amir", 
+	LastName: "Toueg",
+	jersey: 24
+},
+{
+	FirstName: "Itay", 
+	LastName: "Ventura",
+	jersey: 25
+},
+{
+	FirstName: "Gilad", 
+	LastName: "Aidenberg",
+	jersey: 34
+},
+{
+	FirstName: "Eyal", 
+	LastName: "Uriel",
+	jersey: 50
+}

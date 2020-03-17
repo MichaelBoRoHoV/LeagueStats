@@ -1,0 +1,19 @@
+{
+  "name": "leaguestats",
+  "version": "1.0.0",
+  "description": "Work league basketball stats",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelBoRoHoV/LeagueStats.git"
+  },
+  "author": "Michael Borohov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichaelBoRoHoV/LeagueStats/issues"
+  },
+  "homepage": "https://github.com/MichaelBoRoHoV/LeagueStats#readme"
+}
