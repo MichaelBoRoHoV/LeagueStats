@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MichaelBoRoHoV/LeagueStats/issues"
   },
-  "homepage": "https://github.com/MichaelBoRoHoV/LeagueStats#readme"
+  "homepage": "https://github.com/MichaelBoRoHoV/LeagueStats#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
