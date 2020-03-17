@@ -17,7 +17,11 @@ const Player = mongoose.model("Player", playerSchema);
 
 app.get("/players",function(req, res){
     Player.find(function(err,queryResult){
-        console.log(queryResult);  
+        if(!err){
+            res.send(queryResult);
+        }  else {
+            console.log(err);
+        }
     });
 });
 
