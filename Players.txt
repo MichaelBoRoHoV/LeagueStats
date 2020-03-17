@@ -1,50 +1,51 @@
+
 {
-	FirstName: "Michael",
-	LastName: "Borohov",
-	Jersey: 3
+        firstName: "Michael",
+	lastName: "Borohov",
+	jersey: NumberInt(3)
 },
 {
-	FirstName: "Gadi",
-	LastName: "Berqowitz",
-	Jersey: 99
+	firstName: "Gadi",
+	lastName: "Berqowitz",
+	jersey: NumberInt(99)
 },
 {
-	FirstName: "Amir", 
-	LastName: "Golan",
-	jersey: 20
+	firstName: "Amir", 
+	lastName: "Golan",
+	jersey: NumberInt(20)
 },
 {
-	FirstName:"Tzahi", 
-	LastName:"Greenberg",
-	jersey: 1
+	firstName:"Tzahi", 
+	lastName:"Greenberg",
+	jersey: NumberInt(1)
 },
 {
-	FirstName: "Amos", 
-	LastName: "Bercovich",
-	jersey: 7
+	firstName: "Amos", 
+	lastName: "Bercovich",
+	jersey: NumberInt(7)
 },
 {
-	FirstName: "Iden", 
-	LastName: ""Oren",
- 	jersey: 23
+	firstName: "Iden", 
+	lastName: "Oren",
+ 	jersey: NumberInt(23)
 },
 {
-	FirstName: "Amir", 
-	LastName: "Toueg",
-	jersey: 24
+	firstName: "Amir", 
+	lastName: "Toueg",
+	jersey: NumberInt(24)
 },
 {
-	FirstName: "Itay", 
-	LastName: "Ventura",
-	jersey: 25
+	firstName: "Itay", 
+	lastName: "Ventura",
+	jersey: NumberInt(25)
 },
 {
-	FirstName: "Gilad", 
-	LastName: "Aidenberg",
-	jersey: 34
+	firstName: "Gilad", 
+	lastName: "Aidenberg",
+	jersey: NumberInt(34)
 },
 {
-	FirstName: "Eyal", 
-	LastName: "Uriel",
-	jersey: 50
+	firstName: "Eyal", 
+	lastName: "Uriel",
+	jersey: NumberInt(50)
 }

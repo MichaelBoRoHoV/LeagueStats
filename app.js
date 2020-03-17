@@ -1,10 +1,24 @@
 
 const express = require("express")
+const mongoose = require("mongoose");
 
 const app = express();
 
-app.get("/",function(req, res){
-    res.send("Hello World!")
+mongoose.connect("mongodb://localhost:27017/leagueStatsDB", {useNewUrlParser: true,useUnifiedTopology: true});
+console.log("sucssefully connected to db");
+
+const playerSchema = new mongoose.Schema({
+    firstName: String,
+    lastName: String,
+    jersey: Number
+});
+
+const Player = mongoose.model("Player", playerSchema);
+
+app.get("/players",function(req, res){
+    Player.find(function(err,queryResult){
+        console.log(queryResult);  
+    });
 });
 
 
