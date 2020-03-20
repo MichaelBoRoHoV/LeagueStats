@@ -12,6 +12,9 @@
   },
   "author": "Michael Borohov",
   "license": "ISC",
+  "engines": {
+    "node": "12.16.1"
+  },
   "bugs": {
     "url": "https://github.com/MichaelBoRoHoV/LeagueStats/issues"
   },

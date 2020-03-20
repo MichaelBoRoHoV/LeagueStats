@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 
-mongoose.connect("mongodb://localhost:27017/leagueStatsDB", {useNewUrlParser: true,useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://admin-michael:admin-michael@league-stats-cvea4.mongodb.net/leagueStatsDB?retryWrites=true&w=majority", {useNewUrlParser: true,useUnifiedTopology: true});
 console.log("sucssefully connected to db");
 
 const playerSchema = new mongoose.Schema({
@@ -62,8 +62,11 @@ app.route("/players/:playerID")
     }) 
 });
 
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
 
-
-app.listen(3000,function(){
-    console.log("Server is up and running in port 3000")
+app.listen(port,function(){
+    console.log("Server is up and running")
 });
